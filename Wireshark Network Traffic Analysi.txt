@@ -1,0 +1,20 @@
+# Wireshark Network Traffic Analysis Report
+
+**Date:** June 30, 2025  
+**Tool Used:** Wireshark  
+**Capture Duration:** ~1 minute  
+**Traffic Generated:** Visited example.com and pinged google.com
+
+---
+
+## 📌 Protocols Observed
+
+| Protocol | Description                     | Example Packet Info                     |
+|----------|----------------------------------|-----------------------------------------|
+| DNS      | Domain name resolution          | Query for `example.com`                 |
+| TCP      | TCP handshake & data transfer   | SYN, ACK between client & server        |
+| HTTP     | Web traffic (GET/POST requests) | HTTP GET request to `http://example.com`|
+
+---
+
+**Capture File:** [my-capture.pcap]
